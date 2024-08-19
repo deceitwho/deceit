@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    color: white;
+    font-size: 3em;
+    margin-bottom: 50px;
+}
+
+.btn {
+    display: block;
+    width: 250px;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 25px;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.google-btn {
+    background-color: white;
+    color: black;
+}
+
+.x-btn {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
